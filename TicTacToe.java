@@ -1,29 +1,5 @@
-import java.util.Random;
-import java.util.Scanner;
-
-/* We have to create a board (#), that looks like a hash
-    _|_|_ (1st row)
-    _|_|_ (2nd row)
-     | |  (3rd row)
-     Something like that!
-     */
- //so the must be positions in the array, we'll be using an array of character type
- //so there will be more of numbers 1-9
- 
- //1st row
- /*number 1 will be in position [0,0] 
-   number 2 will be in position [0,2]
-   number 3 will be in position [0,4]*/
-
- //2nd row
- /*number 4 will be in position [1,0] 
-   number 5 will be in position [1,2]
-   number 6 will be in position [1,4]*/
-
-    //3rd row
- /*number 7 will be in position [2,0] 
-   number 8 will be in position [2,2]
-   number 9 will be in position [2,4]*/
+import java.util.Random;    //for random numbers
+import java.util.Scanner;   //for user input
 
 public class TicTacToe {
       
@@ -45,48 +21,15 @@ public class TicTacToe {
             if(gameOver) {
                 break;
             }
-
         }
-        /*System.out.println("---------------");
-        moveOfThePlayer(gameBoard);
-
-        System.out.println("---------------");
-        moveOfTheComputer(gameBoard);
-
-        System.out.println("---------------");
-        moveOfThePlayer(gameBoard);
-
-        System.out.println("---------------");
-        moveOfTheComputer(gameBoard);
-
-        System.out.println("---------------");
-        moveOfThePlayer(gameBoard);
-
-        System.out.println("---------------");
-        moveOfTheComputer(gameBoard);
-
-        System.out.println("---------------");
-        moveOfThePlayer(gameBoard);
-
-        System.out.println("---------------");
-        moveOfTheComputer(gameBoard);*/
     }
 
     //method that will print out the gameBoard, passing the array as a parameter
-    public static void showGameBoard(char [][] gameBoard) {
-
-        /*for each one of the character in rows inside on of the gameBoard
-        for(char[] row : gameBoard) {
-            for(char c : row) {
-                System.out.print(c);
-            }
-            System.out.println();
-        }*/
-
-        
+    public static void showGameBoard(char [][] gameBoard) {  
         //line 36 is equivalent to
         //1st loop - 3 rows
         //2nd loop - 5 columns
+
         for(int i = 0; i < gameBoard.length; i++) {
             for(int j = 0; j< 5; j++)
             {
@@ -326,7 +269,6 @@ public class TicTacToe {
             System.out.println("It's a tie.");
             return true;
         }
-        return false;
-        
+        return false; 
     }
 }
