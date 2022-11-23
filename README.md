@@ -17,3 +17,6 @@ I created a board (#), that looks like a hash
        number 1 - position [0,0] | number 4 - position [1,0] | number 7 - position [2,0] |
        number 2 - position [0,2] | number 5 - position [1,2] | number 8 - position [2,2] |
        number 3 - position [0,4] | number 6 - position [1,4] | number 9 - position [2,4] |
+
+## The Game
+![image](https://user-images.githubusercontent.com/81802355/203623565-336eeab7-468c-402a-8d42-6f80440a8555.png)
