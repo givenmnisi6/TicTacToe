@@ -2,6 +2,8 @@
 
 ## Board
 I created a board (#), that looks like a hash
+
+
     _|_|_ (1st row)
     _|_|_ (2nd row)
      | |  (3rd row)
